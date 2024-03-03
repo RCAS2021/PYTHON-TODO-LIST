@@ -1,4 +1,15 @@
+html {
+    display: table;
+    margin: auto;
+}
+
 body {
     margin: 0;
     font-family: sans-serif;
+    display: table-cell;
+    vertical-align: top;
+}
+
+table, th, td{
+    border: 1px solid black;
 }
